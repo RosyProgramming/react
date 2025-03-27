@@ -1,13 +1,10 @@
 import { Header } from './components/Header';
-
-import './global.css';
-
-import styles from './App.module.css';
-
 import { Sidebar } from './components/Sidebar';
 import { Post } from './components/Post';
+import styles from './App.module.css';
+import './global.css';
 
- export function App() {
+export function App() {
   return (
     <div>
       <Header />
